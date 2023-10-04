@@ -1,0 +1,258 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    width: 1440px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+}
+
+.test_div {
+    position: absolute;
+    width: 1440px;
+    height: 2700px;
+    opacity: 0.3;
+    top: -24px;
+    background-image: url('../img/Tesla\ Landing.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* .container {
+    margin: 0 auto;
+} */
+
+.navbar {
+    align-items: center;
+    margin: 24px 60px 0px 44px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 166px;
+    height: 51px;
+    background-image: url('../img/Tesla-Wordmark-Red.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.menu_item {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+    padding-bottom: 6px;
+    border-bottom: 2px transparent solid;
+    border-radius: 7%;
+    transition: 0.2s;
+}
+
+.menu_item:hover {
+    color: #E51937;
+    border-bottom: 2px solid #E51937;
+    border-radius: 7%;
+}
+
+.menu-main, .menu-second{
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.menu-main {
+    padding-left: 20px;
+}
+
+.menu-main li {
+    margin-right: 40px;
+}
+
+.menu-main li:last-child {
+    width: 24;
+    margin-right: 0;
+}
+
+.menu-second .menu_item {
+    margin-right: 30px;
+}
+
+.tesla_titel {
+    position: relative;
+}
+.tesla_woodmark {
+    position: absolute;
+    right: -7px;
+    width: 1514px;
+    height: 467px;
+    flex-shrink: 0;
+    opacity: 0.1;
+    background-image: url('../img/Tesla-Wordmark-Red.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.tesla_titel h1 {
+    margin: 58px 0 0 0 ;
+    padding: 0;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    
+}
+.tesla_titel p {
+    position: relative;
+    top: -10px;
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: center;
+}
+
+.model_s {
+    margin: 15px auto;
+    position: relative;
+    padding: 0;
+    width: 968px;
+    height: 450px;
+    flex-shrink: 0;
+    background-image: url('../img/tesla-png-tesla-png-hd-1636.png');
+    align-items: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    right: 2.6%;
+}
+
+.specifications {
+    display: flex;
+    align-items: center;
+    margin-top: 31px;
+    padding-left: 319px;
+    display: flex;
+    align-items: center;
+}
+
+.spec_1 {
+    margin-right: 79px;
+}
+
+.spec_1, .spec_2{
+    display: flex;
+}
+
+.speed_img {
+    padding: 10px 0 0 0;
+    height: 100%;
+    margin-right: 12px;
+}
+
+.distance_img {
+    padding: 4px 0 0 0;
+    height: 100%;
+    margin-right: 5px;
+}
+
+.main_spec span {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 39px;
+}
+
+.main_spec {
+    padding: 0;
+    margin: 0 0 0px 0;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.second_spec {
+    padding: 0;
+    margin: 0;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.action {
+    display: flex;
+}
+
+.test_drive {
+    flex-shrink: 0;
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+}
+
+.test_drive img {
+    width: 22px;
+    height: 22px;
+    flex-shrink: 0;
+    margin-right: 8px;
+}
+
+.test_drive a {
+    flex-shrink: 0;
+    text-decoration: none;
+    width: 89px;
+    height: 14px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.to_order {
+    flex-shrink: 0;
+    align-items: center;
+    margin-left: 35px;
+    width: 160px;
+    height: 40px;
+    border: 2px solid #E51937;
+    background-color: transparent;
+}
+
+.to_order a {
+    flex-shrink: 0;
+    width: 100px;
+    height: 15px;
+    text-decoration: none;
+    color: #E51937;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
