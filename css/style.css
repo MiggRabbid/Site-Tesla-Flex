@@ -96,7 +96,7 @@ tesla title
     width: 1514px;
     height: 467px;
     opacity: 0.1;
-    background-image: url('../img/Tesla-Wordmark-Red.png');
+    background-image: url('../img/Tesla-Wordmark-Red.webp');
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -292,11 +292,10 @@ description_specs
 }
 
 .model_cockpit {
-    max-width: 1440px;
     position: absolute;
     width: 1548px;
     height: 844px;
-    background-image: url('/img/2013-tesla-model-s-cockpit.png');
+    background-image: url('/img/2013-tesla-model-s-cockpit.webp');
     background-size: contain;
     background-repeat: no-repeat;
     top: 56px;
