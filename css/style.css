@@ -20,7 +20,7 @@ body {
     height: 2700px;
     opacity: 0.3;
     top: -24px;
-    background-image: url('../img/reference/Test\ drive\ 1\ hover.jpg');
+    background-image: url('../img/reference//Test-drive-1-hover.jpg');
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -35,7 +35,7 @@ body {
 .logo {
     width: 166px;
     height: 51px;
-    background-image: url('../img/Tesla-Wordmark-Red.webp');
+    background-image: url('../img/tesla-wordmark-red.png');
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -98,8 +98,8 @@ tesla title
     position: absolute;
     width: 1440px;
     height: 467px;
-    opacity: 1.1;
-    background-image: url('../img/Tesla-Wordmark-Red.webp');
+    opacity: 0.1;
+    background-image: url('../img/tesla-wordmark-red.png');
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -167,7 +167,7 @@ tesla title
     height: 40px;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url('/img/Speed.svg');
+    background-image: url('../img/speed.png');
 }
 
 .specifications .spec_1_speed {
@@ -178,7 +178,8 @@ tesla title
     margin-top: 7px;
     width: 47px;
     background-repeat: no-repeat;
-    background-image: url('/img/RoadIcon.svg');
+    background-image: url('../img/road-Icon.png');
+    background-size: contain;
 }
 
 .main_spec {
@@ -232,11 +233,13 @@ tesla title
     width: 22px;
     height: 22px;
     margin-right: 8px;
-    background-image: url("/img/steering-wheel.svg");
+    background-size: contain;
+    background-image: url("../img/steering-wheel.png");
 }
 
 .tesla_titel .test_drive:hover > .test_drive_img {
-    background-image: url("/img/steering-wheel-hover.svg");
+    background-size: contain;
+    background-image: url("../img/steering-wheel-hover.png");
 }
 
 .tesla_titel .test_drive a {
@@ -286,7 +289,7 @@ tesla title
     margin-right: 50%;
     width: 34px;
     height: 20px;
-    background-image: url('/img/Vector.png');
+    background-image: url('../img/vector.png');
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -312,7 +315,7 @@ description_specs
     position: absolute;
     width: 100%;
     height: 844px;
-    background-image: url('/img/2013-tesla-model-s-cockpit.webp');
+    background-image: url('../img/2013-tesla-model-s-cockpit.png');
     background-size: contain;
     background-repeat: no-repeat;
     top: 56px;
@@ -424,7 +427,8 @@ description_specs
     height: 53px;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url('/img/screen.svg');
+    background-size: contain;
+    background-image: url('../img/screen.png');
 }
 
 .description_spec_1 .spec_screen {
@@ -436,8 +440,9 @@ description_specs
     left: -4px;
     width: 58px;
     height: 34px;
+    background-size: contain;
     background-repeat: no-repeat;
-    background-image: url('/img/wifi.svg');
+    background-image: url('../img/wifi.png');
 }
 
 .description_spec_2 .spec_wifi {
@@ -447,8 +452,9 @@ description_specs
 .description_spec_3 .spec_bag_img {
     width: 36px;
     height: 52px;
+    background-size: contain;
     background-repeat: no-repeat;
-    background-image: url('/img/bag.svg');
+    background-image: url('../img/bag.png');
 }
 
 .description_spec_3 .spec_bag {
@@ -584,7 +590,7 @@ description_specs
     position: absolute;
     top: -2px;
     right: 24px;
-    content: url("/img/5Stars.png");
+    content: url("/img/5-stars.png");
     vertical-align: middle;
     text-align: right;
     width: 141px;
@@ -607,10 +613,6 @@ description_specs
     opacity: 0.7;
 }
 
-.protection_assessment h3 {
-    
-}
-
 .security {
     display: flex;
     margin: 108px 0 0 66px;
@@ -620,7 +622,8 @@ description_specs
 .security .security_img {
     width: 62px;
     height: 74px;
-    background-image: url("/img/security.svg");
+    background-size: contain;
+    background-image: url("../img/security.png");
 }
 
 .security .security_text {
