@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    /* border: 0.01px solid green; */
 }
 
 body {
@@ -8,8 +9,8 @@ body {
     margin: 0 auto;
     font-family: 'Montserrat', sans-serif;
     align-items: center;
-    border-left: 0.2px solid green;
-    border-right: 0.2px solid green;
+    /* border-left: 0.2px solid green;
+    border-right: 0.2px solid green; */
 }
 
 .test_div {
@@ -651,4 +652,32 @@ description_specs
 .description_second .description_action {
     margin-top: 60px;
     margin-left: 38px;
+}
+
+.description_second {
+    position: relative;
+}
+
+.model_s_title {
+    position: absolute;
+    top: 97px;
+    left: 623px;
+    width: 821px;
+    height: 269px;
+    color: #E51937;
+    font-family: Montserrat;
+    font-size: 200px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    opacity: 0.1;
+}
+
+.car_frame {
+    position: absolute;
+    top: 172px;
+    left: 345px;
+    width: 1049px;
+    height: 580px;
+    background: url("/img/Car_frame_group.png")
 }
