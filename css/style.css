@@ -11,6 +11,7 @@ body {
 }
 
 .test_div {
+    z-index: 3;
     position: absolute;
     width: 1440px;
     height: 2700px;
@@ -79,6 +80,12 @@ body {
 .menu-second .menu_item {
     margin-right: 30px;
 }
+
+/*
+
+tesla title
+
+*/
 
 .tesla_titel {
     position: relative;
@@ -197,12 +204,12 @@ body {
     font-weight: 400;
 }
 
-.action {
+.tesla_titel .action {
     margin: 0;
     display: flex;
 }
 
-.test_drive {
+.tesla_titel .test_drive {
     margin-left: 100px;
     display: flex;
     align-items: center;
@@ -210,14 +217,14 @@ body {
     border: none;
 }
 
-.test_drive img {
+.tesla_titel .test_drive img {
     width: 22px;
     height: 22px;
     flex-shrink: 0;
     margin-right: 8px;
 }
 
-.test_drive a {
+.tesla_titel .test_drive a {
     text-decoration: none;
     width: 89px;
     height: 14px;
@@ -230,7 +237,7 @@ body {
     text-transform: uppercase;
 }
 
-.to_order {
+.tesla_titel .to_order {
     align-items: center;
     margin-left: 35px;
     width: 160px;
@@ -239,7 +246,7 @@ body {
     background-color: transparent;
 }
 
-.to_order a {
+.tesla_titel .to_order a {
     width: 100px;
     height: 15px;
     text-decoration: none;
@@ -252,16 +259,6 @@ body {
     text-transform: uppercase;
 }
 
-.description {
-    position: relative;
-    margin-top: 25px;
-}
-.description_first {
-    margin-top: 33px;
-    width: 100%;
-    position: relative;
-}
-
 .direction_down {
     margin-left: 50%;
     margin-right: 50%;
@@ -272,7 +269,25 @@ body {
     background-repeat: no-repeat;
 }
 
+/*
+
+description_specs
+
+*/
+
+.description {
+    position: relative;
+    margin-top: 25px;
+}
+
+.description_first {
+    margin-top: 33px;
+    width: 100%;
+    position: relative;
+}
+
 .model_cockpit {
+    max-width: 1440px;
     position: absolute;
     width: 1548px;
     height: 844px;
@@ -294,12 +309,15 @@ body {
 
 .model_description {
     padding-top: 51px;
-    padding-left: 52px;
     position: relative;
     width: 440px;
     height: 900px;
     background: #E51937;
     left: 1000px;
+}
+
+.description__title {
+    margin-left: 52px;
 }
 
 .description__title h3 {
@@ -319,11 +337,156 @@ body {
     margin: 11px 0 0 0;
     width: 316px;
     height: 206px;
-    flex-shrink: 0;
     color: #FFF;
     font-family: Montserrat;
     font-size: 15px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+
+.description_spec_1, .description_spec_2, .description_spec_3 {
+    display: flex;
+    align-items: center;
+}
+
+.description_spec_2 {
+    margin-top: 35px;
+}
+
+.description_spec_3 {
+    margin-top: 25px;
+}
+
+
+.spec_screen {
+    height: 100%;
+}
+
+.spec_wifi {
+    height: 100%;
+}
+
+.spec_bag {
+    height: 100%;
+}
+
+.description_specs {
+    margin-left: 52px;
+    margin-top: 54px;
+    width: 316px;
+}
+
+.description_specs .main_spec {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.description_specs .main_spec span {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.description_specs .second_spec {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.spec_wifi {
+    position: relative;
+    left: -4px;
+}
+
+.description_spec_1 div {
+    margin-left: 28px;
+}
+
+.description_spec_2 div {
+    margin-left: 20px;
+}
+
+.description_spec_3 div {
+    margin-left: 27px;
+}
+
+
+.description_action {
+    padding: 0;
+    margin: 171px 0 0 49px;
+    display: flex;
+    width: 347px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+}
+
+.description_action .more_info {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+}
+
+.more_info p {
+    width: 22px;
+    height: 22px;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.more_info a {
+    text-decoration: none;
+    color: #ffffff;
+    width: 147px;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.description_action .to_order {
+    align-items: center;
+    width: 165px;
+    height: 40px;
+    border: 2px solid #ffffff;
+    background-color: transparent;
+}
+
+.description_action .to_order a {
+    width: 100px;
+    height: 15px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
 }
