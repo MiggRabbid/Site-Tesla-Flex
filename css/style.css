@@ -20,7 +20,7 @@ body {
     height: 2700px;
     opacity: 0.3;
     top: -24px;
-    background-image: url('../img/reference//Test-drive-1-hover.jpg');
+    background-image: url('../img/reference/test-drive-1-hover.jpg');
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -590,7 +590,7 @@ description_specs
     position: absolute;
     top: -2px;
     right: 24px;
-    content: url("/img/5-stars.png");
+    content: url("../img/stars.png");
     vertical-align: middle;
     text-align: right;
     width: 141px;
@@ -682,5 +682,5 @@ description_specs
     left: 345px;
     width: 1049px;
     height: 580px;
-    background: url("/img/Car_frame_group.png")
+    background: url("../img/car_frame.png")
 }
