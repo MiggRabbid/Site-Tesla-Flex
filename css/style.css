@@ -8,6 +8,8 @@ body {
     margin: 0 auto;
     font-family: 'Montserrat', sans-serif;
     align-items: center;
+    border-left: 0.2px solid green;
+    border-right: 0.2px solid green;
 }
 
 .test_div {
@@ -17,14 +19,14 @@ body {
     height: 2700px;
     opacity: 0.3;
     top: -24px;
-    background-image: url('../img/reference/TeslaLanding.jpg');
+    background-image: url('../img/reference/Test\ drive\ 1\ hover.jpg');
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .navbar {
     align-items: center;
-    margin: 24px 60px 0px 44px;
+    margin: 24px 50px 0px 50px;
     display: flex;
     justify-content: space-between;
 }
@@ -32,7 +34,7 @@ body {
 .logo {
     width: 166px;
     height: 51px;
-    background-image: url('../img/Tesla-Wordmark-Red.png');
+    background-image: url('../img/Tesla-Wordmark-Red.webp');
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -65,7 +67,7 @@ body {
 }
 
 .menu-main {
-    padding-left: 80px;
+    padding-left: 105px;
 }
 
 .menu-main li {
@@ -90,12 +92,12 @@ tesla title
 .tesla_titel {
     position: relative;
 }
+
 .tesla_woodmark {
     position: absolute;
-    right: -7px;
-    width: 1514px;
+    width: 1440px;
     height: 467px;
-    opacity: 0.1;
+    opacity: 1.1;
     background-image: url('../img/Tesla-Wordmark-Red.webp');
     background-size: contain;
     background-repeat: no-repeat;
@@ -113,6 +115,7 @@ tesla title
     text-align: center;
     
 }
+
 .tesla_titel .welcome {
     position: relative;
     top: -10px;
@@ -126,7 +129,7 @@ tesla title
 }
 
 .model_s {
-    margin: 15px auto;
+    margin: 15px 0 0 0;
     position: relative;
     padding: 0;
     width: 968px;
@@ -134,9 +137,9 @@ tesla title
     flex-shrink: 0;
     background-image: url('../img/tesla-png-tesla-png-hd-1636-light.png');
     align-items: center;
-    background-size: contain;
+    background-size: 100%;
     background-repeat: no-repeat;
-    right: 2.6%;
+    left: 16.5%;
 }
 
 .specifications {
@@ -156,8 +159,6 @@ tesla title
 .specifications .spec_1, .specifications .spec_2{
     display: flex;
 }
-
-
 
 .specifications .spec_1_speed_img{
     margin-top: 16px;
@@ -222,11 +223,19 @@ tesla title
     border: none;
 }
 
+.tesla_titel .test_drive:hover > * {
+    color: #E51937;
+}
+
 .tesla_titel .test_drive_img {
     width: 22px;
     height: 22px;
     margin-right: 8px;
     background-image: url("/img/steering-wheel.svg");
+}
+
+.tesla_titel .test_drive:hover > .test_drive_img {
+    background-image: url("/img/steering-wheel-hover.svg");
 }
 
 .tesla_titel .test_drive a {
@@ -251,6 +260,10 @@ tesla title
     background-color: transparent;
 }
 
+.tesla_titel .to_order:hover {
+    background-color: #E51937;
+}
+
 .tesla_titel .to_order a {
     width: 100px;
     height: 15px;
@@ -262,6 +275,9 @@ tesla title
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
+}
+.tesla_titel .to_order:hover > * {
+    color: #ffffff;
 }
 
 .direction_down {
@@ -286,14 +302,14 @@ description_specs
 }
 
 .description_first {
-    margin-top: 33px;
+    margin-top: 34px;
     width: 100%;
     position: relative;
 }
 
-.model_cockpit {
+.description_model_cockpit {
     position: absolute;
-    width: 1548px;
+    width: 100%;
     height: 844px;
     background-image: url('/img/2013-tesla-model-s-cockpit.webp');
     background-size: contain;
@@ -301,8 +317,9 @@ description_specs
     top: 56px;
 }
 
-.direction_title {
+.description_title {
     margin: 8px 0 0 80px;
+    max-width: 300px;
     color: #E51937;
     font-family: Montserrat;
     font-size: 70px;
@@ -320,11 +337,11 @@ description_specs
     left: 1000px;
 }
 
-.description__title {
+.model_description_title {
     margin-left: 52px;
 }
 
-.description__title h3 {
+.model_description_title h3 {
     padding: 0;
     margin: 0;
     width: 316px;
@@ -336,7 +353,7 @@ description_specs
     line-height: normal;
 }
 
-.description__title p {
+.model_description_title p {
     padding: 0;
     margin: 11px 0 0 0;
     width: 316px;
@@ -346,7 +363,7 @@ description_specs
     font-size: 15px;
     font-style: normal;
     font-weight: 500;
-    line-height: normal;
+    line-height: 1.22em;
 }
 
 .description_spec_1, .description_spec_2, .description_spec_3 {
@@ -355,7 +372,7 @@ description_specs
 }
 
 .description_spec_2 {
-    margin-top: 39px;
+    margin-top: 35px;
 }
 
 .description_spec_3 {
@@ -434,13 +451,13 @@ description_specs
 }
 
 .description_spec_3 .spec_bag {
-    margin-left: 27px;
+    margin-top: 7px;
+    margin-left: 25px;
 }
-
 
 .description_action {
     padding: 0;
-    margin: 174px 0 0 49px;
+    margin: 172px 0 0 49px;
     display: flex;
     width: 347px;
     height: 40px;
@@ -483,6 +500,12 @@ description_specs
     text-transform: uppercase;
 }
 
+.description_action .more_info:hover > p {
+    color: #E51937;;
+    background-color: #FFF;
+
+}
+
 .description_action .to_order {
     align-items: center;
     width: 165px;
@@ -502,4 +525,130 @@ description_specs
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
+}
+
+.description_action .to_order:hover {
+    background-color: white;
+}
+
+.description_action .to_order:hover > * {
+    color: #E51937;
+}
+
+.description_second .model_description {
+    left: 0;
+}
+
+.description_second .model_description_title {
+    margin-left: 56px;
+}
+
+.description_second .model_description_title p {
+    margin-top: 13px;
+    height: 100%;
+}
+
+.protection_assessment {
+    margin-top: 55px;
+    margin-left: 56px;
+}
+
+.protection_assessment h3 {
+    margin: 0;
+    margin-bottom: 27px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.protection_assessment p {
+    position: relative;
+    height: 25px;
+    width: 316px;
+    margin: 0;
+    margin-bottom: 12px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.protection_assessment p::after {
+    position: absolute;
+    top: -2px;
+    right: 24px;
+    content: url("/img/5Stars.png");
+    vertical-align: middle;
+    text-align: right;
+    width: 141px;
+    height: 25px;
+}
+
+.protection_assessment p:last-child {
+    margin-bottom: 0;
+}
+
+.protection_assessment p span {
+    margin: 0;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    opacity: 0.7;
+}
+
+.protection_assessment h3 {
+    
+}
+
+.security {
+    display: flex;
+    margin: 108px 0 0 66px;
+    align-items: center;
+}
+
+.security .security_img {
+    width: 62px;
+    height: 74px;
+    background-image: url("/img/security.svg");
+}
+
+.security .security_text {
+    margin-left: 23px;
+}
+
+.security .security_p_main {
+    padding: 0;
+    margin: 0;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px;
+}
+
+.security .security_p_second {
+    padding: 0;
+    margin: 0;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.description_second .description_action {
+    margin-top: 60px;
+    margin-left: 38px;
 }
