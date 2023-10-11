@@ -5,13 +5,14 @@
 
 body {
     position: relative;
+    min-width: 1280px;
     max-width: 1440px;
     margin: 0 auto;
     font-family: 'Montserrat', sans-serif;
     align-items: center;
     /* border-left: 0.2px solid green;
-    border-right: 0.2px solid green;
-} */
+    border-right: 0.2px solid green; */
+}
 
 .test_div {
     z-index: 3;
