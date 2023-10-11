@@ -5,13 +5,13 @@
 
 body {
     position: relative;
-    width: 1440px;
+    max-width: 1440px;
     margin: 0 auto;
     font-family: 'Montserrat', sans-serif;
     align-items: center;
     /* border-left: 0.2px solid green;
-    border-right: 0.2px solid green; */
-}
+    border-right: 0.2px solid green;
+} */
 
 .test_div {
     z-index: 3;
@@ -25,19 +25,26 @@ body {
     background-repeat: no-repeat;
 }
 
-.navbar {
-    align-items: center;
-    margin: 24px 50px 0px 50px;
+.container {
     display: flex;
     justify-content: space-between;
 }
 
 .logo {
+    margin-left: 3.8%;
     width: 166px;
     height: 51px;
     background-image: url('../img/tesla-wordmark-red.png');
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+.navbar {
+    height: 51px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 50px 0px 50px;
 }
 
 .menu_item {
@@ -68,7 +75,7 @@ body {
 }
 
 .menu-main {
-    padding-left: 105px;
+    margin-left: 19.5%;
 }
 
 .menu-main li {
@@ -91,13 +98,18 @@ tesla title
 */
 
 .tesla_titel {
+    margin: 4% 0 0 0 ;
+    display: flex;
+    flex-direction: column;
     position: relative;
+    width: 100%;
+    height: 680px;
 }
 
 .tesla_woodmark {
     position: absolute;
-    width: 1440px;
-    height: 467px;
+    width: 100%;
+    height: 100%;
     opacity: 0.1;
     background-image: url('../img/tesla-wordmark-red.png');
     background-size: contain;
@@ -105,7 +117,7 @@ tesla title
 }
 
 .tesla_titel h1 {
-    margin: 58px 0 0 0 ;
+    margin: 0;
     padding: 0;
     color: #000;
     font-family: Montserrat;
@@ -114,7 +126,7 @@ tesla title
     font-weight: 600;
     line-height: normal;
     text-align: center;
-    
+
 }
 
 .tesla_titel .welcome {
@@ -130,27 +142,22 @@ tesla title
 }
 
 .model_s {
-    margin: 15px 0 0 0;
     position: relative;
-    padding: 0;
-    width: 968px;
-    height: 450px;
-    flex-shrink: 0;
-    background-image: url('../img/tesla-png-tesla-png-hd-1636-light.png');
-    align-items: center;
-    background-size: 100%;
-    background-repeat: no-repeat;
+    margin-top: 1.4%;
     left: 16.5%;
+    width: 67%;
+    height: 100%;
+    background-image: url('../img/tesla-png-tesla-png-hd-1636-light.png');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
 }
 
 .specifications {
     display: flex;
+    align-items: center;
+    justify-content: center;
     height: 60px;
-    align-items: center;
-    margin-top: 26px;
-    padding-left: 319px;
-    display: flex;
-    align-items: center;
+    margin-top: 1.6%;
 }
 
 .specifications .spec_1 {
@@ -301,6 +308,8 @@ description_specs
 */
 
 .description {
+    display: flex;
+    flex-direction: column;
     position: relative;
     margin-top: 34px;
 }
@@ -308,21 +317,22 @@ description_specs
 .description_first {
     margin-top: 34px;
     width: 100%;
+    height: 900px;
     position: relative;
 }
 
 .description_model_cockpit {
     position: absolute;
     width: 100%;
-    height: 844px;
+    height: 100%;
     background-image: url('../img/2013-tesla-model-s-cockpit.png');
-    background-size: contain;
+    background-size: auto 100%;
     background-repeat: no-repeat;
-    top: 56px;
 }
 
 .description_title {
-    margin: 8px 0 0 80px;
+    margin: 62px 0 0 0;
+    margin-left: 5.7%;
     max-width: 300px;
     color: #E51937;
     font-family: Montserrat;
@@ -333,22 +343,23 @@ description_specs
 }
 
 .model_description {
-    padding-top: 51px;
     position: relative;
-    width: 440px;
-    height: 900px;
+    padding-top: 3.5%;
+    left: 69.5%;
+    width: 30.5%;
+    height: 100%;
     background: #E51937;
-    left: 1000px;
 }
 
 .model_description_title {
-    margin-left: 52px;
+    margin-left: 12%;
+    margin-right: 15%;
 }
 
 .model_description_title h3 {
     padding: 0;
     margin: 0;
-    width: 316px;
+    width: 100%;
     color: #FFF;
     font-family: Montserrat;
     font-size: 30px;
@@ -360,7 +371,7 @@ description_specs
 .model_description_title p {
     padding: 0;
     margin: 11px 0 0 0;
-    width: 316px;
+    width: 100%;
     height: 206px;
     color: #FFF;
     font-family: Montserrat;
@@ -376,16 +387,16 @@ description_specs
 }
 
 .description_spec_2 {
-    margin-top: 35px;
+    margin-top: 11%;
 }
 
 .description_spec_3 {
-    margin-top: 38px;
+    margin-top: 13%;
 }
 
 .description_specs {
-    margin-left: 52px;
-    margin-top: 66px;
+    margin-left: 12%;
+    margin-top: 14.9%;
     width: 316px;
 }
 
@@ -464,11 +475,10 @@ description_specs
 
 .description_action {
     padding: 0;
-    margin: 172px 0 0 49px;
+    margin: 40% 9.5% 0 11%;
     display: flex;
-    width: 347px;
     height: 40px;
-    justify-content: center;
+    justify-content:space-between;
     align-items: center;
     gap: 22px;
 }
@@ -542,12 +552,19 @@ description_specs
     color: #E51937;
 }
 
+.description_second {
+    display: flex;
+    width: 100%;
+    height: 900px;
+    position: relative;
+}
+
 .description_second .model_description {
     left: 0;
 }
 
 .description_second .model_description_title {
-    margin-left: 56px;
+    margin-left: 13%;
 }
 
 .description_second .model_description_title p {
@@ -556,8 +573,8 @@ description_specs
 }
 
 .protection_assessment {
-    margin-top: 55px;
-    margin-left: 56px;
+    margin-top: 12.6%;
+    margin-left: 13%;
 }
 
 .protection_assessment h3 {
@@ -615,7 +632,7 @@ description_specs
 
 .security {
     display: flex;
-    margin: 108px 0 0 66px;
+    margin: 25% 0 0 15%;
     align-items: center;
 }
 
@@ -653,21 +670,20 @@ description_specs
 }
 
 .description_second .description_action {
-    margin-top: 60px;
-    margin-left: 38px;
+    margin: 60px 12% 0 9%;
 }
 
-.description_second {
+.description_model_security {
+    width: 69.5%;
     position: relative;
 }
 
 .model_s_title {
-    position: absolute;
-    top: 97px;
-    left: 623px;
-    width: 821px;
-    height: 269px;
     color: #E51937;
+    padding: 97px 0 0 0;
+    width: 100%;
+    height: 50%;
+    text-align: right;
     font-family: Montserrat;
     font-size: 200px;
     font-style: normal;
@@ -678,9 +694,12 @@ description_specs
 
 .car_frame {
     position: absolute;
-    top: 172px;
-    left: 345px;
-    width: 1049px;
-    height: 580px;
-    background: url("../img/car_frame.png")
+    top: 17%;
+    right: 4%;
+    width: 105%;
+    height: 70%;
+    background: url("../img/car_frame.png");
+    background-size: 100% auto ;
+    background-position: right;
+    background-repeat: no-repeat;
 }

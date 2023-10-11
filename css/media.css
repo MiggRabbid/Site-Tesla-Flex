@@ -1,0 +1,141 @@
+@media only screen and (min-width: 1023px) and (max-width: 1280px) {
+    /* body {
+        background-color: greenyellow;
+    } */
+    
+    .navbar{
+        margin-left: 0;
+        margin-right: 3.8%;
+    }
+
+    .menu-main {
+        margin-left: 19%;
+    }
+
+    .menu-main li {
+        margin-right: 25px;
+    }
+
+    .tesla_titel {
+        margin: 2% 0 0 0 ;
+        
+        height: 590px;
+    }
+
+    .tesla_woodmark {
+        top: 4%;
+        
+    }
+
+    .tesla_titel h1 {
+    }
+
+    .model_s {
+        margin-top: 0;
+        left: 16.5%;
+    }
+
+    .specifications {
+        margin-top: 0;
+    }
+
+    .description {
+        margin-top: 25px;
+    }
+
+    .description_first {
+        margin-top: 25px;
+        height: 800px;
+    }
+    
+    .description_title {
+        margin: 42px 0 0 0;
+        margin-left: 5.7%;
+    }
+
+    .model_description_title {
+        margin-right: 12%;
+    }
+
+    .model_description {
+        left: 65%;
+        padding-top: 4%;
+        width: 35%;
+    }
+
+    .description_specs {
+        margin-top: 27%;
+    }
+
+    .model_description_title h3 {
+        font-size: 25px;
+    }
+
+    .model_description_title p {
+        font-size: 15px;
+    }
+
+    .description_spec_2 {
+        margin-top: 25px;
+    }
+    
+    .description_spec_3 {
+        margin-top: 28px;
+    }
+
+    .description_action {
+        padding: 0;
+        margin: 30% 12% 0;
+        gap: 23px;
+    }
+
+    .protection_assessment h3 {
+        font-size: 25px;
+    }
+
+    .security .security_p_main {
+        font-size: 40px;
+    }
+    
+    .security .security_p_second {
+        font-size: 21px;
+    }
+
+    .description_second {
+        height: 800px;
+    }
+
+    .protection_assessment{
+        margin-top: 10%;
+    }
+
+    .protection_assessment p {
+        margin-bottom: 3%;
+    }
+
+    .protection_assessment p::after {
+        right: 40px;
+    }
+
+    .protection_assessment p:last-child {
+        margin-bottom: 0;
+    }
+
+    .protection_assessment h3 {
+        margin-bottom: 4%;
+    }
+
+    .security {
+        margin: 14% 0 0 12%;
+    }
+    .description_second .description_action {
+        margin-top: 16%;
+    }
+
+    .model_s_title {
+        font-size: 100px;
+        padding: 77px 0 0 0;
+        font-size: 150px;
+    }
+
+} 
