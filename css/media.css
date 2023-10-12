@@ -1,33 +1,30 @@
-@media only screen and (min-width: 1023px) and (max-width: 1280px) {
-    /* body {
-        background-color: greenyellow;
-    } */
-    
-    .navbar{
-        margin-left: 0;
-        margin-right: 3.8%;
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+    body {
+        min-width: 1024px;
+        max-width: 1279px;
     }
 
-    .menu-main {
-        margin-left: 19%;
+    .logo {
+        margin-left: 2%;
+        width: 140px;
+        height: 51px;
     }
 
-    .menu-main li {
-        margin-right: 25px;
+    .navbar {
+        margin: 0 2%;
+    }
+
+    .menu_item {
+        font-size: 14px;
     }
 
     .tesla_titel {
-        margin: 2% 0 0 0 ;
-        
+        margin: 2% 0 0 0;
         height: 590px;
     }
 
     .tesla_woodmark {
         top: 4%;
-        
-    }
-
-    .tesla_titel h1 {
     }
 
     .model_s {
@@ -39,13 +36,18 @@
         margin-top: 0;
     }
 
+    .description_model_cockpit {
+        width: 100%;
+        height: 100%;
+        background-size: auto 75%;
+    }
     .description {
         margin-top: 25px;
     }
 
     .description_first {
         margin-top: 25px;
-        height: 800px;
+        height: 768px;
     }
     
     .description_title {
@@ -58,35 +60,36 @@
     }
 
     .model_description {
-        left: 65%;
-        padding-top: 4%;
-        width: 35%;
+        padding-top: 3%;
+        min-width: 350px;
+        width: 30%;
+        max-width: 400px;
     }
 
     .description_specs {
-        margin-top: 27%;
+        margin-top: 20%;
     }
 
     .model_description_title h3 {
-        font-size: 25px;
+        font-size: 24px;
     }
 
     .model_description_title p {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .description_spec_2 {
-        margin-top: 25px;
+        margin-top: 20px;
     }
     
     .description_spec_3 {
-        margin-top: 28px;
+        margin-top: 25px;
     }
 
     .description_action {
         padding: 0;
-        margin: 30% 12% 0;
-        gap: 23px;
+        margin: 33% 12% 0;
+        gap: 20px;
     }
 
     .protection_assessment h3 {
@@ -102,11 +105,11 @@
     }
 
     .description_second {
-        height: 800px;
+        height: 768px;
     }
 
     .protection_assessment{
-        margin-top: 10%;
+        margin-top: 14%;
     }
 
     .protection_assessment p {
@@ -129,7 +132,7 @@
         margin: 14% 0 0 12%;
     }
     .description_second .description_action {
-        margin-top: 16%;
+        margin-top: 17%;
     }
 
     .model_s_title {
@@ -137,5 +140,4 @@
         padding: 77px 0 0 0;
         font-size: 150px;
     }
-
-} 
+}

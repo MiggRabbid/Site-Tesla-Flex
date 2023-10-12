@@ -27,12 +27,14 @@ body {
 }
 
 .container {
+    position: relative;
     display: flex;
     justify-content: space-between;
 }
 
 .logo {
-    margin-left: 3.8%;
+    position: absolute;
+    margin-left: 3.5%;
     width: 166px;
     height: 51px;
     background-image: url('../img/tesla-wordmark-red.png');
@@ -41,11 +43,10 @@ body {
 }
 
 .navbar {
+    position: relative;
+    margin: 0 3.5%;
     height: 51px;
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-    margin: 0px 50px 0px 50px;
+    width: 100%;
 }
 
 .menu_item {
@@ -76,21 +77,30 @@ body {
 }
 
 .menu-main {
-    margin-left: 19.5%;
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    gap: 3%;
+    width: 100%;
 }
 
-.menu-main li {
-    margin-right: 45px;
+.menu-second {
+    position: absolute;
+    top: 16px;
+    right: 0;
+    margin: 0;
+    width: 200px;
 }
+
 
 .menu-second li:last-child {
     width: 24;
-    margin-right: 0;
 }
 
 .menu-second .menu_item {
     margin-right: 30px;
 }
+
 
 /*
 
@@ -324,11 +334,14 @@ description_specs
 
 .description_model_cockpit {
     position: absolute;
+    left: 0;
+    bottom: 0;
     width: 100%;
     height: 100%;
     background-image: url('../img/2013-tesla-model-s-cockpit.png');
-    background-size: auto 100%;
+    background-size: auto 90%;
     background-repeat: no-repeat;
+    background-position: left bottom;
 }
 
 .description_title {
@@ -344,17 +357,19 @@ description_specs
 }
 
 .model_description {
-    position: relative;
+    position: absolute;
     padding-top: 3.5%;
-    left: 69.5%;
-    width: 30.5%;
+    right: 0;
+    min-width: 417px;
+    width: 32.5%;
+    max-width: 440px;
     height: 100%;
     background: #E51937;
 }
 
 .model_description_title {
     margin-left: 12%;
-    margin-right: 15%;
+    margin-right: 12%;
 }
 
 .model_description_title h3 {
@@ -385,6 +400,7 @@ description_specs
 .description_spec_1, .description_spec_2, .description_spec_3 {
     display: flex;
     align-items: center;
+    width: 300px;
 }
 
 .description_spec_2 {
@@ -398,7 +414,7 @@ description_specs
 .description_specs {
     margin-left: 12%;
     margin-top: 14.9%;
-    width: 316px;
+    width: 300px;
 }
 
 .description_specs .main_spec {
@@ -561,6 +577,7 @@ description_specs
 }
 
 .description_second .model_description {
+    position: relative;
     left: 0;
 }
 
@@ -671,7 +688,7 @@ description_specs
 }
 
 .description_second .description_action {
-    margin: 60px 12% 0 9%;
+    margin: 13% 12% 0 9%;
 }
 
 .description_model_security {
