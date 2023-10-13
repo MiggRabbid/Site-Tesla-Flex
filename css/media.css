@@ -1,7 +1,8 @@
-@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+@media only screen and (min-width: 1024px) and (max-width: 1279.5px) {
     body {
         min-width: 1024px;
         max-width: 1279px;
+        background-color: rgb(198, 255, 112);
     }
 
     .logo {
@@ -39,7 +40,7 @@
     .description_model_cockpit {
         width: 100%;
         height: 100%;
-        background-size: auto 75%;
+        background-size: auto 78%;
     }
     .description {
         margin-top: 25px;
@@ -140,4 +141,218 @@
         padding: 77px 0 0 0;
         font-size: 150px;
     }
+}
+
+
+@media only screen and (min-width: 832px) and (max-width: 1023.5px) {
+    body {
+        min-width: 832px;
+        max-width: 1023px;
+    }
+
+    .logo {
+        position: absolute;
+        margin-left: 2%;
+        width: 140px;
+        height: 51px;
+        background-image: url(../img/tesla-wordmark-red.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .navbar {
+        position: relative;
+        margin: 0 2.5%;
+        height: 51px;
+        width: 100%;
+    }
+    .menu-main {
+        gap: 2%;
+    }
+
+    .menu-second {
+        width: 180px;
+    }
+
+    .menu-second .menu_item {
+        margin-right: 15px;
+    }
+
+    .tesla_titel {
+        margin: 1% 0 0 0;
+        height: 500px;
+    }
+
+    .tesla_woodmark {
+        top: 9%;
+        background-image: url(../img/tesla-wordmark-red.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .model_s {
+        background-size: 90% auto;
+        background-position: center;
+    }
+
+    .specifications {
+        margin-top: 0%;
+    }
+
+    .specifications .spec_1 {
+        margin-right: 50px;
+    }
+
+    .tesla_titel .test_drive {
+        margin-left: 60px;
+    }
+
+    .tesla_titel .to_order {
+        margin-left: 20px;
+    }
+
+    .direction_down {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .description_first, .description_second {
+        height: 620px;
+    }
+
+    .model_description {
+        padding-top: 3%;
+        min-width: 340px;
+        width: 30%;
+        max-width: 390px;
+    }
+
+    .model_description_title,
+    .description_second .model_description_title {
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+
+    .model_description_title h3 {
+        font-size: 22px;
+    }
+
+    .model_description_title p {
+        font-size: 14px;
+    }
+
+    .description_spec_1, .description_spec_2, .description_spec_3 {
+        width: 280px;
+    }
+
+
+    .description_specs {
+        margin-left: 11%;
+        margin-top: 10%;
+    }
+
+    .description_specs .main_spec {
+        font-size: 17px;
+    }
+
+    .description_specs .main_spec span {
+        font-size: 25px;
+    }  
+
+    .description_spec_1 .spec_screen_img {
+        width: 30px;
+        height: 40px;
+    }
+
+    .description_spec_2 .spec_wifi_img {
+        left: -6px;
+        width: 50px;
+        height: 40px;
+    }
+
+    .description_spec_3 .spec_bag_img {
+        width: 30px;
+        height: 40px;
+    }
+
+    .description_spec_2 {
+        margin-top: 5%;
+    }
+
+    .description_spec_3 {
+        margin-top: 5%;
+    }
+
+    .description_action {
+        margin: 12% 7% 0 7%;
+        gap: 15px;
+    }
+
+    .description_model_cockpit {
+        background-size: auto 80%;
+    }
+
+    .protection_assessment {
+        margin-top: 8%;
+        margin-left: 35px;
+    }
+
+    .protection_assessment h3 {
+        margin-bottom: 8px;
+        font-size: 22px;
+    }
+    
+    .protection_assessment p {
+        margin-bottom: 5px;
+        height: 20px;
+        font-size: 14px;
+    }
+
+    .protection_assessment p::after {
+        right: 90px;
+        width: 100px;
+        height: 10px;
+    }
+
+    .security {
+        display: flex;
+        margin: 8% 0 0 35px;
+        align-items: center;
+    }
+
+    .security .security_img {
+        width: 55px;
+        height: 60px;
+        background-size: contain;
+        background-image: url(../img/security.png);
+    }
+
+    .security .security_text {
+        margin-left: 15px;
+    }
+
+    .security .security_p_main {
+        font-size: 40px;
+    }
+
+    .security .security_p_second {
+        font-size: 21px;
+    }
+
+    .description_second .description_action {
+        margin: 7% 7% 0 7%;
+    }
+
+    .model_s_title {
+        font-size: 119px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        opacity: 0.1;
+    }
+
+    .car_frame {
+        top: 30%;
+    }
+    
 }
