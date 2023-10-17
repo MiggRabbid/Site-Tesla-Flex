@@ -2,7 +2,6 @@
     body {
         min-width: 1024px;
         max-width: 1279px;
-        background-color: rgb(198, 255, 112);
     }
 
     .logo {
@@ -365,8 +364,6 @@
         margin: 0 auto;
         font-family: 'Montserrat', sans-serif;
         align-items: center;
-        border-left: 0.2px solid green;
-        border-right: 0.2px solid green;
     }
 
     .logo {
